@@ -1,0 +1,41 @@
+.footer {
+  background: #2d3748;
+  color: white;
+  padding: 1.5rem 0;
+  margin-top: auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.year {
+  font-weight: 500;
+}
+
+.userEmail {
+  color: #a0aec0;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  .userEmail {
+    font-size: 0.8rem;
+  }
+}
